@@ -42,7 +42,7 @@ main{
     width: 1440px;
     margin: 0 auto;
 }
-
+/* Journey head style start */
 .btn-primary{
     padding: 10px 24px;
     gap: 8px;
@@ -73,6 +73,7 @@ main{
     display: flex;
     justify-content: space-between;
 }
+
 .overlay{
     position: relative;
     top: -451px;
@@ -81,5 +82,36 @@ main{
     width: 475px;
     height: 475px;
 }
+/* camera img style end */
+
+/* icon holder start */
+    .icon-holder{
+        border-top: 1px solid  rgb(238, 237, 237);
+        border-bottom:1px solid  rgb(238, 237, 237) ;
+        min-height: 100px;
+        width: 71.875rem;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 70px;
+       
+    }
+    .icon-holder div{
+        padding-top: 35px;
+    }
+/* camera img style start */
+
 /* main section style end*/
 
+/* media query start */
+ @media (max-width: 576px) {
+      .head-container {
+        display: block;
+        margin: 0 auto;
+
+      }
+      .journy-container{
+        flex-direction: column-reverse;
+
+}
+    }
