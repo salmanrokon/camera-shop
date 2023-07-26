@@ -105,7 +105,9 @@ main{
     .popular{
         display: grid;
         grid-template-columns: repeat(3,1fr);
-        text-align: center;
+    }
+    .popular-img-hold{
+        margin: 0 auto;
     }
     .card{
     width: 329px;
@@ -117,14 +119,72 @@ main{
     text-align: left;
     
     }
-    .card img{
-        padding: 10px;
-        
+    .see{
+        text-align: right;
+        padding-top: 20px;
     }
+
 
 /* popular card end */
 
+/* last-part start */
+.last-hed{
+    width: 610px;
+    color: #0A0826;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 60px; /* 157.895% */
+}
+.last-para{
+    width: 501px;
+    height: 88px;
+    color: #6C6C6C;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 175% */
+}
+.last-part{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+.last-text{
+    margin-right: 57px;
+}
+/* last-part end */
+
 /* main section style end*/
+
+/* footer Start */
+
+footer{
+    width: 1440px;
+    height: 239px;
+    background: #0A0826;
+    margin: 0 auto;
+    margin-top: 150px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    margin-left: 140px;
+    
+}
+.footer-all{
+  padding-top: 37px;
+}
+.footer-head{
+   margin-bottom: -12px; 
+}
+.copyright{
+    margin-bottom: -30px;
+
+}
+
+/* footer End */
+
+
+
 
 /* media query start */
  @media (max-width: 576px) {
